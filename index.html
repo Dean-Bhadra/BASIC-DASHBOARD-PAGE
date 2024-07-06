@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dean's Lobby - Your go-to place for web development, code assistance, and game development services.">
+  <title>Dashboard | Dean's Lobby</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://www.deanslobby.com">
+</head>
+<body>
+  <header>
+    <h1>Dean's Lobby</h1>
+    <nav>
+      <ul>
+        <li><a href="#about" aria-current="page">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>This is a SPA sample webpage created to act as a dashboard of <strong>Dean's Lobby</strong>. Feel free to reach out to us using our Contact options.</p>
+    </section>
+    <section id="contact" aria-labelledby="contact-heading" hidden>
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>Get in touch with us:</p>
+      <ul>
+        <li><a href="https://discord.com/" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        <li><a href="https://www.blogger.com/" target="_blank" rel="noopener noreferrer">Blogpost</a></li>
+      </ul>
+      <form id="signup-form">
+        <h3>Sign Up for Our Newsletter</h3>
+        <label for="email">Enter your email address:</label>
+        <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <section id="services" aria-labelledby="services-heading" hidden>
+      <h2 id="services-heading">Our Services</h2>
+      <p>List of services offered here:</p>
+      <ul>
+        <li>Frontend Web Development</li>
+        <li>Code Assistance</li>
+        <li>Game Development</li>
+      </ul>
+    </section>
+    <section id="portfolio" aria-labelledby="portfolio-heading" hidden>
+      <h2 id="portfolio-heading">Our Portfolio</h2>
+      <p>Showcasing our projects here.</p>
+      <p><em>To be updated</em></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
